@@ -17,7 +17,9 @@ namespace ConsoleApp1
             try
             {
                 double broj = double.Parse(unos);
-                Console.WriteLine(KvadratniKorijen(broj));
+                double rezultat = KvadratniKorijen(broj)
+                Console.WriteLine($"Kvadratni korijen od {rezultat} je");
+                Console.WriteLine();
             }
             catch (Exception e)
             {
