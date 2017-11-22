@@ -20,6 +20,7 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(e);
             }
+            Console.ReadKey();
         }
         public static double KvadratniKorijen(double broj)
         {
