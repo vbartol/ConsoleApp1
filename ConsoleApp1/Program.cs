@@ -11,6 +11,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Poruka");
+
+            Console.WriteLine("Upiši neki broj za koji želiš kvadratni korijen");
             string unos = Console.ReadLine();
             try
             {
