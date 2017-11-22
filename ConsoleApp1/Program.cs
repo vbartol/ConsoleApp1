@@ -10,7 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
+             string unos = Console.ReadLine();
+            try
+            {
+               double broj = double.Parse(unos);
+                Console.WriteLine(KvadratniKorijen(broj));
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
         public static double KvadratniKorijen(double broj)
         {
